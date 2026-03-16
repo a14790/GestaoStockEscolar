@@ -8,7 +8,7 @@ Programa em Python para gerir o stock de materiais escolares de uma escola. Perm
 - Consultar a quantidade disponível de um material específico.
 - Atualizar o stock (adicionar ou remover unidades).
 - Exibir o estado geral do stock.
-- Exportar o stock para um ficheiro `.txt`.
+
 
 ## Requisitos
 - Python 3.x
