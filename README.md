@@ -1,19 +1,62 @@
-# GestaoStockEscolar
+#  Gestão de Stock de Materiais Escolares
 
-## Descrição
-Programa em Python para gerir o stock de materiais escolares de uma escola. Permite adicionar novos materiais, consultar quantidades, atualizar o stock (adição ou remoção) e exibir o estado geral. Inclui funcionalidade extra para exportar o stock para um ficheiro.
+##  Descrição do Projeto
+Este projeto consiste no desenvolvimento de um programa em Python para gerir o stock de materiais escolares de uma escola. O sistema permite registar, consultar, atualizar e visualizar materiais de forma simples e eficiente, substituindo o registo manual.
+
+---
+
+##  Objetivo
+Automatizar o controlo de stock de materiais escolares, facilitando:
+- A organização dos dados  
+- A consulta rápida de materiais  
+- A atualização eficiente das quantidades  
+
+---
 
 ## Funcionalidades
-- Adicionar novos materiais ao stock.
-- Consultar a quantidade disponível de um material específico.
-- Atualizar o stock (adicionar ou remover unidades).
-- Exibir o estado geral do stock.
 
+O programa inclui as seguintes funções:
 
-## Requisitos
-- Python 3.x
+###  Adicionar Material
+Permite registar novos materiais no stock com uma quantidade inicial.
 
-## Como Usar
-1. Clona este repositório:
-   ```bash
-   git clone https://github.com/teu-usuario/GestaoStockEscolar.git
+###  Consultar Stock
+Permite verificar a quantidade disponível de um material específico.
+
+###  Atualizar Stock
+Permite:
+- Adicionar unidades ao stock  
+- Remover unidades do stock  
+
+###  Exibir Stock Geral
+Mostra todos os materiais registados e as respetivas quantidades.
+
+### Funcionalidade Extra
+Exportação do stock para um ficheiro `.txt`.
+
+---
+
+## Estrutura do Programa
+
+O código está organizado em funções, o que permite:
+- Melhor organização
+- Reutilização de código
+- Facilidade de manutenção
+
+Funções principais:
+- `adicionar_material()`
+- `consultar_stock()`
+- `atualizar_stock()`
+- `exibir_stock()`
+- `main()`
+
+---
+
+## Como Executar
+
+1. Abrir o terminal
+2. Navegar até à pasta do projeto
+3. Executar o ficheiro:
+
+```bash
+python main.py
