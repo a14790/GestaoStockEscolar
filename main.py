@@ -1,3 +1,5 @@
+# Exportação do stock 
+
 def exportar_stock(stock):
     with open("stock.txt", "w", encoding="utf-8") as ficheiro:
         for material, quantidade in stock.items():
