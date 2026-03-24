@@ -76,7 +76,7 @@ def main():
     stock = {}
 
     while True:
-        # Usar raw string para evitar warnings de escape
+        
         print(r"""
   ____           _        ____  _             _    
  / ___| ___  ___| |_ ___ / ___|| |_ ___   ___| | __
