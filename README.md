@@ -52,14 +52,14 @@ Funções principais:
 
 ---
 
-![Demo do Programa](https://image2url.com/r2/default/gifs/1774342759650-68b7f57e-1b02-454c-a812-9dfc6efbcd19.gif)
+
 
 ## Como Executar
 
 1. Abrir o terminal
 2. Navegar até à pasta do projeto
 3. Executar o ficheiro:
-
+![Demo do Programa](https://image2url.com/r2/default/gifs/1774342759650-68b7f57e-1b02-454c-a812-9dfc6efbcd19.gif)
 ```bash
 python main.py
 
