@@ -1,5 +1,4 @@
 # Exportação do stock 
-
 def exportar_stock(stock):
     with open("stock.txt", "w", encoding="utf-8") as ficheiro:
         for material, quantidade in stock.items():
@@ -19,7 +18,6 @@ def adicionar_material(stock):
         except ValueError:
             print("Quantidade inválida! Use um número inteiro.")
 
-
 # Função para consultar o stock de um material
 def consultar_stock(stock):
     if not stock:
@@ -31,7 +29,6 @@ def consultar_stock(stock):
         print(f"O stock atual de {nome} é: {stock[nome]}")
     else:
         print(f"{nome} não encontrado no stock.")
-
 
 # Função para atualizar o stock
 def atualizar_stock(stock):
@@ -62,7 +59,6 @@ def atualizar_stock(stock):
     else:
         print(f"{nome} não encontrado no stock.")
 
-
 # Função para exibir o estado geral do stock
 def exibir_stock(stock):
     if not stock:
@@ -75,13 +71,13 @@ def exibir_stock(stock):
     for material, quantidade in stock.items():
         print(f"{material:<15} {quantidade}")
 
-
 # Função principal (menu)
 def main():
     stock = {}
 
     while True:
-        print("""
+        # Usar raw string para evitar warnings de escape
+        print(r"""
   ____           _        ____  _             _    
  / ___| ___  ___| |_ ___ / ___|| |_ ___   ___| | __
 | |  _ / _ \/ __| __/ _ \\\___ \| __/ _ \ / __| |/ /
@@ -114,7 +110,6 @@ def main():
             break
         else:
             print("Opção inválida! Tente novamente.")
-
 
 if __name__ == "__main__":
     main()
