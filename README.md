@@ -60,3 +60,5 @@ Funções principais:
 
 ```bash
 python main.py
+
+https://image2url.com/r2/default/gifs/1774342759650-68b7f57e-1b02-454c-a812-9dfc6efbcd19.gif
